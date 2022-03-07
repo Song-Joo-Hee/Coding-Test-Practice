@@ -5,15 +5,15 @@ N가지 종류의 화폐가 있습니다. 이 화폐들의 개수를 최소한�
 이 때, 각 종류의 화폐는 몇 개라도 사용할 수 있습니다. 
 M원을 만들기 위한 최소한의 화폐 개수를 출력하는 프로그램을 작성하세요.
 
-![image.png](attachment:image.png)
+![image](https://user-images.githubusercontent.com/95834067/156953765-bc02f202-93e8-4fc1-aa03-849d52c2ae1b.png)
 
-![image.png](attachment:image.png)
+![image](https://user-images.githubusercontent.com/95834067/156953788-448d894c-ac49-4854-894d-842ff7d9ffce.png)
 👉 **(i-k)원을 만들 수 있는 방법이 존재할 때는, i원을 만드는 최소 개수와 i-k를 만드는 최소 개수에서 화폐 단위 k를 하나 더 해준 즉, 1을 더해준 개수와 비교한다.**  
 
-![image.png](attachment:image.png)
-![image-4.png](attachment:image-4.png)
-![image-5.png](attachment:image-5.png)
-![image-7.png](attachment:image-7.png) 
+![image](https://user-images.githubusercontent.com/95834067/156953798-92ae6417-0b22-4030-bba3-d1b6a0cee2ce.png)
+![image](https://user-images.githubusercontent.com/95834067/156953808-62d4cbce-fb26-411c-abd3-fe77c2a67fa8.png)
+![image](https://user-images.githubusercontent.com/95834067/156953810-5039eb15-c842-40da-bfbf-343e43273ee9.png)
+![image](https://user-images.githubusercontent.com/95834067/156953815-2529a5e7-16f5-400d-aa6c-39de45807ba3.png)
 
 
 ```python
@@ -42,3 +42,5 @@ if d[m] == 10001 :
 else :
     print(d[m])
 ```
+<br>
+출처 : 이것은 취업을 위한 코딩 테스트다. (https://www.youtube.com/watch?v=5Lu34WIx2Us&list=PLRx0vPvlEmdAghTr5mXQxGpHjWqSz0dgC&index=7)
