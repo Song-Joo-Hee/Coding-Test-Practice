@@ -1,8 +1,8 @@
 ### 문제
 
-![image.png](attachment:image.png)
+![image](https://user-images.githubusercontent.com/95834067/157824022-7c138e5d-b98f-4ea0-9fdd-b8a00547f0ed.png)
 
-![image.png](attachment:image.png)
+![image](https://user-images.githubusercontent.com/95834067/157824034-09ad9f0e-ef6e-4983-afab-9f981d6d0f00.png)
 
 
 ```python
