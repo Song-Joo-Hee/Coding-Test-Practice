@@ -70,18 +70,3 @@ print(cnt)
 print(maxv)
 ```
 
-
-    ---------------------------------------------------------------------------
-
-    ValueError                                Traceback (most recent call last)
-
-    <ipython-input-5-5c9e585c93e7> in <module>
-          4 input = sys.stdin.readline # 입력을 빠르게 받기 위해
-          5 
-    ----> 6 n,m = map(int, input().split())
-          7 map = [list(map(int, input().split())) for _ in range(n)] # 세로길이만큼 그래프 지도를 채워넣기 -> 2차원 배열 생성
-          8 chk = [[False] * m for _ in range(n)] # n*m 만큼 방문 배열(2차원) 생성 -> false로 초기화
-    
-
-    ValueError: not enough values to unpack (expected 2, got 0)
-
