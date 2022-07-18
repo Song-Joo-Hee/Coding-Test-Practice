@@ -1,0 +1,19 @@
+### 문제
+* 백준 3460번
+
+```python
+import sys
+
+input = sys.stdin.readline
+
+t = int(input())
+
+for _ in range(t):
+	n = int(input())
+	i = 0
+	while n > 0 :
+		if n % 2 == 1:
+			print(i, end=' ')
+		i += 1
+		n = n//2
+```
