@@ -26,3 +26,28 @@ def combination(cnt, last_num):
 
 combination(0,0)
 ```
+<br>
+
+* 만약에 조합의 개수를 묻는 문제라면? n개의 공 중에 m개를 뽑았다고 생각하자.
+* 4개의 공 중에 3개의 공이라고 치면, 0000 ~ 1111 까지 중에서 1이 3개 있는 이진수의 개수를 출력하면 된다.
+```python
+# n개의 공 중에 m개 뽑기 
+n, m = map(int,  input().split())
+answer = []
+
+def combination(curr_num, cnt):
+    if curr_num == n+1:
+        if cnt == m :
+            print(*answer)
+        return
+
+    answer.append(0)
+    combination(curr_num+1, cnt)
+    answer.pop()
+
+    answer.append(1)
+    combination(curr_num+1, cnt+1)
+    answer.pop(1)
+
+combination(1,0)
+```
