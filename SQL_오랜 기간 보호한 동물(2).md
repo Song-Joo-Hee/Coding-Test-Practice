@@ -1,0 +1,12 @@
+### 문제
+* 프로그래머스
+
+<img src='https://user-images.githubusercontent.com/95834067/195850570-72c4535d-10dd-4c4c-9778-15095c1c6812.png' height='50%' width='50%'>
+
+```mysql
+SELECT INS.ANIMAL_ID, INS.NAME
+FROM ANIMAL_INS AS INS INNER JOIN ANIMAL_OUTS AS OUTS
+ON INS.ANIMAL_ID = OUTS.ANIMAL_ID
+ORDER BY OUTS.DATETIME - INS.DATETIME DESC
+LIMIT 2;
+```
