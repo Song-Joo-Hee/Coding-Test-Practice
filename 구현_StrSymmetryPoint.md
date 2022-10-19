@@ -25,3 +25,23 @@ def solution(S):
         return -1
   
 ```
+
+* 풀이 2 : 다른 코드를 보니, while 문으로 더 간단하게 짜놓아서 참고를 하였다.
+```python
+def solution(S):
+    if len(S) % 2 == 0 :
+        return -1
+    
+    mid = len(S) // 2
+    start = 0
+    end = -1
+
+    while start < mid :
+        if S[start] != S[end]:
+            return -1
+        start += 1
+        end -= 1
+    
+    return mid
+
+```
